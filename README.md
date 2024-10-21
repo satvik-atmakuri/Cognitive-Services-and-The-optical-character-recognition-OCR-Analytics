@@ -3,6 +3,8 @@
 ## Description
 This project is a web application that allows users to upload images, extract text from them using Azure's OCR (Optical Character Recognition) service, and display both the image and the extracted text on the same page.
 
+![OCR Example](images/Screenshot%202024-10-21%20001715.png)
+
 ## Technologies Used
 - **Flask**: A lightweight Python web framework used to build the web application.
 - **HTML/CSS**: For the front-end user interface design.
@@ -32,6 +34,7 @@ This project is a web application that allows users to upload images, extract te
 ### `index.html`:
 - The main template for the user interface.
 - Includes a form for image uploads and sections to display the uploaded image and OCR results.
+
 
 ## Conclusion
 This project provides a practical application of Flask and Azure Cognitive Services, demonstrating how to build a user-friendly web interface for text extraction from images. The application can be expanded further with additional features for enhanced functionality.
